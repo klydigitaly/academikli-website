@@ -159,7 +159,7 @@
 </footer>
 <script>
 // הכניסו כאן את מספר ה-WhatsApp העסקי בפורמט בינלאומי, ללא + או רווחים. לדוגמה: 972501234567
-const BUSINESS_WHATSAPP = '972552879853';
+const BUSINESS_WHATSAPP = '972559922755'; // 972552879853
 const menuBtn=document.getElementById('menuBtn'),links=document.getElementById('navLinks');menuBtn.addEventListener('click',()=>{const open=links.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('service').value=a.dataset.service}));document.getElementById('contactForm').addEventListener('submit',async e=>{e.preventDefault();const f=e.currentTarget;const msg=`שלום, הגעתי דרך אתר אקדמיכלי.\nשם: ${f.name.value}\nטלפון: ${f.phone.value||'לא צוין'}\nשירות מבוקש: ${f.service.value}\nפרטים: ${f.message.value||'אשמח לקבל פרטים'}`;const status=document.getElementById('formStatus');if(BUSINESS_WHATSAPP.trim()){window.open(`https://wa.me/${BUSINESS_WHATSAPP.replace(/\D/g,'')}?text=${encodeURIComponent(msg)}`,'_blank','noopener,noreferrer');status.textContent='נפתחה הודעת WhatsApp. יש ללחוץ על שליחה באפליקציה.';}else{try{await navigator.clipboard.writeText(msg);status.textContent='הפנייה הועתקה. כדי להפעיל שליחה יש להוסיף את מספר ה-WhatsApp העסקי בקוד.'}catch{status.textContent='יש להגדיר מספר WhatsApp עסקי בקוד כדי לאפשר שליחת פניות.'}}});
 </script>
 
