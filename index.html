@@ -7,11 +7,64 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--navy:#152940;--navy2:#213a55;--gold:#b99460;--cream:#f8f5ef;--ink:#243246;--muted:#647184;--line:#e7dfd3}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Assistant,Arial,sans-serif;font-size:18px;line-height:1.7}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{max-width:1150px;margin:auto;padding:0 26px}.top{position:sticky;top:0;z-index:10;background:rgba(21,41,64,.98);color:white;border-bottom:1px solid #ffffff22}.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:76px}.brand{font-family:Heebo,sans-serif;font-size:28px;font-weight:800;line-height:1.1;white-space:nowrap}.brand span{color:#d5b784}.brand small{display:block;font-family:Assistant,sans-serif;font-size:12px;letter-spacing:.3px;color:#d8c5a7;font-weight:500;margin-top:5px}.links{display:flex;align-items:center;gap:27px;font-size:15px}.links a:hover{color:#e5c99f}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 25px;background:var(--gold);color:#152940;font-weight:800;border:1px solid var(--gold);border-radius:5px;transition:transform .2s,background .2s}.btn:hover{background:#d0ac78;transform:translateY(-2px)}.btn-outline{background:transparent;color:#fff;border-color:#ffffff80}.btn-outline:hover{background:#ffffff15}.hero{position:relative;overflow:hidden;background:radial-gradient(circle at 12% 20%,#2e4864 0%,transparent 38%),linear-gradient(135deg,#10243a,#1e3854);color:white;text-align:center;padding:105px 0 115px}.hero:before,.hero:after{content:"";position:absolute;width:380px;height:380px;border:1px solid #c9a76d35;border-radius:50%;pointer-events:none}.hero:before{left:-220px;top:-190px}.hero:after{right:-230px;bottom:-210px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:2px;color:#d5b784;text-transform:uppercase}.hero h1{font-family:Heebo,sans-serif;font-size:clamp(36px,5.8vw,65px);line-height:1.35;margin:20px 0}.hero h1 em{font-style:normal;color:#d5b784}.hero p{max-width:760px;margin:0 auto 28px;color:#e1e7ed;font-size:20px}.hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.hero-cats{margin-top:35px;color:#e2d5c4;font-size:15px}.section{padding:90px 0}.section-head{text-align:center;margin-bottom:40px}.section-head h2,.split h2{font-family:Heebo,sans-serif;font-size:clamp(29px,3.5vw,40px);line-height:1.35;margin:10px 0 16px}.line{height:2px;width:55px;background:var(--gold);margin:20px auto}.lead{max-width:810px;margin:auto;text-align:center;color:#45566a;font-size:19px}.light{background:#fff}.soft{background:#f0ece5}.service-feature{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center;background:var(--navy);color:white;border-radius:14px;padding:45px;margin-bottom:22px;box-shadow:0 18px 35px #172a3f1a}.service-feature h3{font-size:30px;line-height:1.4;margin:10px 0}.service-feature p{color:#e0e6ed;margin:0 0 20px}.feature-art{min-height:260px;border:1px solid #b9946059;border-radius:12px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#344c67,#1b3049)}.feature-art svg{width:150px;height:150px;stroke:#d6b883;fill:none;stroke-width:1.2}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:#fff;border:1px solid var(--line);border-radius:10px;padding:28px 25px;transition:transform .2s,box-shadow .2s}.service:hover{transform:translateY(-3px);box-shadow:0 12px 25px #172a3f12}.service-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:10px;background:#f5eee3;color:#987143;font-size:24px;margin-bottom:14px}.service h3{font-size:20px;margin:0 0 9px}.service p{font-size:16px;color:#617084;margin:0}.split{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:65px}.split p{margin:0 0 15px}.about-art{min-height:410px;background:linear-gradient(140deg,#1a3049,#334c67);border-radius:12px;display:grid;place-items:center;position:relative;overflow:hidden}.about-art:before{content:"";width:260px;height:260px;border:1px solid #c4a274;border-radius:50%;position:absolute}.about-art .monogram{font-size:90px;color:#d6b883;font-family:Heebo,sans-serif;font-weight:800}.about-art small{position:absolute;bottom:45px;color:#e8d6bc;letter-spacing:2px}.points{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.point{text-align:center;padding:28px 16px;border:1px solid #dcd4c8;background:#fff;border-radius:10px}.point strong{display:block;font-size:23px;color:var(--navy);margin:8px 0}.point span{font-size:15px;color:#627083}.point .symbol{font-size:28px;color:var(--gold)}.contact{background:var(--navy);color:white}.contact-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}.contact h2{font-size:40px;line-height:1.35;margin:12px 0}.contact p{color:#d8e0e9}.form{background:#fff;color:var(--ink);padding:30px;border-radius:12px;display:grid;gap:14px}.form label{display:block;font-weight:700;font-size:15px;margin-bottom:5px}.form input,.form select,.form textarea{width:100%;padding:11px 13px;border:1px solid #cbd1d8;border-radius:6px;background:white;color:#243246;outline-color:var(--gold)}.form textarea{resize:vertical}.form .btn{width:100%}.fine{font-size:13px;color:#647184;line-height:1.5}.foot{background:#0e2033;color:#b9c5d0;text-align:center;padding:26px;font-size:14px}.mobile-menu{display:none}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:800px){.links{display:none;position:absolute;top:76px;left:0;right:0;background:#152940;flex-direction:column;padding:22px}.links.open{display:flex}.mobile-menu{display:block;background:none;border:1px solid #ffffff55;color:white;border-radius:5px;padding:7px 13px}.hero{padding:75px 0}.section{padding:65px 0}.service-feature,.split,.contact-layout{grid-template-columns:1fr;gap:28px}.feature-art{min-height:170px}.service-grid{grid-template-columns:repeat(2,1fr)}.points{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.wrap{padding:0 19px}.brand{font-size:24px}.hero p{font-size:18px}.service-grid{grid-template-columns:1fr}.service-feature{padding:27px}.service-feature h3{font-size:25px}.about-art{min-height:270px}.contact h2{font-size:32px}.form{padding:21px}.hero-cats{font-size:13px}}
+
+/* Testimonials carousel – isolated styles */
+.testimonials{background:linear-gradient(135deg,#10243a,#213a55);color:#fff;padding:75px 0 80px;overflow:hidden}
+.testimonials .section-head{margin-bottom:30px}
+.testimonials .section-head h2{color:#e1c18d}
+.testimonials .review-subtitle{color:#e3e9f0;margin:0;font-size:19px}
+.review-shell{display:flex;align-items:center;gap:12px;max-width:1060px;margin:auto}
+.review-track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;scroll-behavior:smooth;flex:1;padding:12px 2px;overscroll-behavior-inline:contain}
+.review-track::-webkit-scrollbar{display:none}
+.review-slide{flex:0 0 calc((100% - 36px)/3);min-width:0;height:410px;background:#fff;border:1px solid #d9c39f;border-radius:14px;padding:10px;scroll-snap-align:start;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #0002;cursor:zoom-in;color:#526175;overflow:hidden}
+.review-slide img{display:block;width:100%;height:100%;object-fit:contain}
+.review-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:15px;font-size:15px;color:#647184}
+.review-placeholder svg{width:36px;height:36px;stroke:#b99460;fill:none;stroke-width:1.5}
+.review-arrow{border:1px solid #d5b784;color:#e7c991;background:#ffffff0b;border-radius:50%;width:43px;height:43px;flex:0 0 43px;font-size:26px;line-height:1;display:grid;place-items:center;transition:background .2s}
+.review-arrow:hover{background:#ffffff22}
+.review-arrow:disabled{opacity:.35;cursor:default}
+.review-dots{display:flex;justify-content:center;gap:9px;margin-top:18px;direction:ltr}
+.review-dot{width:10px;height:10px;border:0;border-radius:50%;background:#ffffff66;padding:0}
+.review-dot[aria-current="true"]{background:#d5b784;transform:scale(1.15)}
+.review-hint{text-align:center;color:#e3e9f0;font-size:14px;margin:12px 0 0}
+.review-modal{border:0;border-radius:14px;padding:42px 15px 15px;max-width:min(94vw,660px);max-height:92vh;background:#fff;position:fixed}
+.review-modal::backdrop{background:#07101de0}
+.review-modal img{display:block;max-width:100%;max-height:78vh;object-fit:contain;margin:auto}
+.review-modal-close{position:absolute;top:6px;left:9px;border:0;background:transparent;font-size:27px;color:#152940;line-height:1.2}
+@media(max-width:850px){.review-slide{flex-basis:calc((100% - 18px)/2)}}
+@media(max-width:600px){.testimonials{padding:55px 0}.review-shell{gap:6px}.review-slide{flex-basis:100%;height:435px}.review-arrow{width:32px;height:32px;flex-basis:32px;font-size:21px}.review-track{gap:12px}.review-subtitle{font-size:17px!important}}
+@media(prefers-reduced-motion:reduce){.review-track{scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap nav"><a href="#top" class="brand" aria-label="אקדמיכלי, ראש הדף">אקדמי<span>כלי.</span><small>כלים להצלחה אקדמית</small></a><button class="mobile-menu" id="menuBtn" aria-label="פתיחת תפריט" aria-expanded="false">☰</button><nav class="links" id="navLinks" aria-label="ניווט ראשי"><a href="#services">השירותים שלנו</a><a href="#about">קצת עלינו</a><a href="#advantages">למה אנחנו?</a><a href="#contact">יצירת קשר</a></nav></div></header>
 <main id="top"><section class="hero"><div class="wrap"><div class="eyebrow">ACADEMIKLY • ACADEMIC SERVICES</div><h1>ההצלחה שלכם.<br><em>הליווי שלנו.</em></h1><p>כתיבה אקדמית, עבודות סמינריוניות, מחקר וניתוח נתונים – מעטפת שירותים מקצועית, ניסיון של למעלה מעשור ויחס אישי לאורך הדרך.</p><div class="hero-actions"><a class="btn" href="#contact">בואו נדבר על העבודה שלכם ←</a><a class="btn btn-outline" href="#services">לכל השירותים</a></div><div class="hero-cats">כתיבה אקדמית · עבודות סמינריוניות · עריכה · ניתוח נתונים · ליווי אישי</div></div></section>
+
+<!-- המלצות לקוחות: התמונות נטענות מהתיקייה images/testimonials -->
+<section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="testimonials-title">ההצלחה שלכם, הסיפוק שלנו</h2>
+      <div class="line"></div>
+      <p class="review-subtitle">המלצות מלקוחות שבחרו נכון</p>
+    </div>
+    <div class="review-shell">
+      <button class="review-arrow" id="reviewPrev" type="button" aria-label="להמלצה הקודמת">❯</button>
+      <div class="review-track" id="reviewTrack" role="region" aria-roledescription="קרוסלה" aria-label="המלצות לקוחות" tabindex="0">
+        <!-- כרטיסי ההמלצות נוצרים באמצעות JavaScript -->
+      </div>
+      <button class="review-arrow" id="reviewNext" type="button" aria-label="להמלצה הבאה">❮</button>
+    </div>
+    <div class="review-dots" id="reviewDots" aria-label="ניווט בין המלצות"></div>
+    <p class="review-hint">לחצו על תמונה כדי להגדיל אותה</p>
+  </div>
+</section>
+<dialog class="review-modal" id="reviewModal" aria-label="תצוגת המלצה מוגדלת">
+  <button class="review-modal-close" id="reviewModalClose" type="button" aria-label="סגירה">×</button>
+  <img id="reviewModalImage" alt="">
+</dialog>
+
 <section class="section light"><div class="wrap"><div class="section-head"><div class="eyebrow" style="color:#9b7546">מכירים את ההרגשה?</div><h2>כשהדרישות מצטברות,<br>טוב שיש למי לפנות.</h2><div class="line"></div></div><p class="lead">המאמרים נערמים, ההנחיות מורכבות, מועדי ההגשה מתקרבים והעבודה הסמינריונית עדיין רחוקה מלהיות מוכנה. באקדמיכלי אנו מסייעים לעשות סדר בתהליך הכתיבה והמחקר, להבין את הדרישות ולקדם את העבודה בעזרת שירותים מקצועיים והכוונה אישית.</p></div></section>
 <section class="section soft" id="services"><div class="wrap"><div class="section-head"><div class="eyebrow" style="color:#9b7546">מענה אקדמי במקום אחד</div>
 <h2>השירותים שלנו</h2>
@@ -109,4 +162,92 @@
 const BUSINESS_WHATSAPP = '972552879853';
 const menuBtn=document.getElementById('menuBtn'),links=document.getElementById('navLinks');menuBtn.addEventListener('click',()=>{const open=links.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('service').value=a.dataset.service}));document.getElementById('contactForm').addEventListener('submit',async e=>{e.preventDefault();const f=e.currentTarget;const msg=`שלום, הגעתי דרך אתר אקדמיכלי.\nשם: ${f.name.value}\nטלפון: ${f.phone.value||'לא צוין'}\nשירות מבוקש: ${f.service.value}\nפרטים: ${f.message.value||'אשמח לקבל פרטים'}`;const status=document.getElementById('formStatus');if(BUSINESS_WHATSAPP.trim()){window.open(`https://wa.me/${BUSINESS_WHATSAPP.replace(/\D/g,'')}?text=${encodeURIComponent(msg)}`,'_blank','noopener,noreferrer');status.textContent='נפתחה הודעת WhatsApp. יש ללחוץ על שליחה באפליקציה.';}else{try{await navigator.clipboard.writeText(msg);status.textContent='הפנייה הועתקה. כדי להפעיל שליחה יש להוסיף את מספר ה-WhatsApp העסקי בקוד.'}catch{status.textContent='יש להגדיר מספר WhatsApp עסקי בקוד כדי לאפשר שליחת פניות.'}}});
 </script>
+
+<script>
+// הוספת תמונות: העלו קבצים לתיקייה images/testimonials ושנו כאן את הרשימה.
+// אפשר להשתמש גם ב-png או webp, כל עוד שם הקובץ תואם.
+(() => {
+  const reviewImages = [
+    'images/testimonials/review-01.jpg',
+    'images/testimonials/review-02.jpg',
+    'images/testimonials/review-03.jpg',
+    'images/testimonials/review-04.jpg',
+    'images/testimonials/review-05.jpg'
+  ];
+  const track = document.getElementById('reviewTrack');
+  const dots = document.getElementById('reviewDots');
+  const prev = document.getElementById('reviewPrev');
+  const next = document.getElementById('reviewNext');
+  const modal = document.getElementById('reviewModal');
+  const modalImage = document.getElementById('reviewModalImage');
+  const closeModal = document.getElementById('reviewModalClose');
+  if (!track || !reviewImages.length) return;
+
+  const placeholder = () => {
+    const span = document.createElement('span');
+    span.className = 'review-placeholder';
+    span.innerHTML = '<svg viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="6" width="30" height="28" rx="3"/><circle cx="14" cy="15" r="3"/><path d="m8 29 9-10 6 6 4-4 6 8"/></svg><span>כאן תופיע המלצת הלקוח לאחר העלאת התמונה</span>';
+    return span;
+  };
+
+  reviewImages.forEach((src, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'review-slide';
+    button.setAttribute('aria-label', `הגדלת המלצה ${index + 1}`);
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = `המלצה מלקוח של אקדמיכלי`;
+    img.loading = 'lazy';
+    img.addEventListener('error', () => {
+      img.remove();
+      button.append(placeholder());
+      button.disabled = true;
+      button.style.cursor = 'default';
+    }, {once:true});
+    button.append(img);
+    button.addEventListener('click', () => {
+      if (!img.isConnected) return;
+      modalImage.src = img.src;
+      modalImage.alt = img.alt;
+      modal.showModal();
+    });
+    track.append(button);
+  });
+
+  const cards = [...track.querySelectorAll('.review-slide')];
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const cardStep = () => cards[0].getBoundingClientRect().width + (parseFloat(getComputedStyle(track).gap) || 0);
+  const visibleCount = () => Math.max(1, Math.round(track.clientWidth / cardStep()));
+  const maxIndex = () => Math.max(0, cards.length - visibleCount());
+  const currentIndex = () => Math.max(0, Math.min(maxIndex(), Math.round(Math.abs(track.scrollLeft) / cardStep())));
+  const goTo = index => {
+    const target = Math.max(0, Math.min(maxIndex(), index));
+    track.scrollTo({left: -target * cardStep(), behavior: reducedMotion.matches ? 'instant' : 'smooth'});
+  };
+  const update = () => {
+    const current = currentIndex();
+    prev.disabled = current === 0;
+    next.disabled = current >= maxIndex();
+    dots.replaceChildren();
+    for (let i = 0; i <= maxIndex(); i++) {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'review-dot';
+      dot.setAttribute('aria-label', `מעבר להמלצה ${i + 1}`);
+      dot.setAttribute('aria-current', String(i === current));
+      dot.addEventListener('click', () => goTo(i));
+      dots.append(dot);
+    }
+  };
+  prev.addEventListener('click', () => goTo(currentIndex() - 1));
+  next.addEventListener('click', () => goTo(currentIndex() + 1));
+  track.addEventListener('scroll', update, {passive:true});
+  window.addEventListener('resize', update);
+  closeModal.addEventListener('click', () => modal.close());
+  modal.addEventListener('click', e => { if (e.target === modal) modal.close(); });
+  update();
+})();
+</script>
+
 </body></html>
