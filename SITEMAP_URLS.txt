@@ -1,0 +1,10 @@
+<url><loc>https://academikli.co.il/literature-review.html</loc></url>
+<url><loc>https://academikli.co.il/academic-writing.html</loc></url>
+<url><loc>https://academikli.co.il/statistical-analysis.html</loc></url>
+<url><loc>https://academikli.co.il/academic-editing.html</loc></url>
+<url><loc>https://academikli.co.il/academic-translation.html</loc></url>
+<url><loc>https://academikli.co.il/interview-guides.html</loc></url>
+<url><loc>https://academikli.co.il/presentations.html</loc></url>
+<url><loc>https://academikli.co.il/document-formatting.html</loc></url>
+<url><loc>https://academikli.co.il/excel-templates.html</loc></url>
+<url><loc>https://academikli.co.il/moodle.html</loc></url>

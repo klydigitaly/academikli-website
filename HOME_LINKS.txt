@@ -1,0 +1,12 @@
+קישורים להוספה ידנית בעמוד הבית, לפי השירות המתאים:
+
+סקירת ספרות: <a href="/literature-review.html">למידע נוסף על השירות ←</a>
+כתיבה אקדמית ועבודות סמינריוניות: <a href="/academic-writing.html">למידע נוסף על השירות ←</a>
+ניתוחים סטטיסטיים: <a href="/statistical-analysis.html">למידע נוסף על השירות ←</a>
+עריכה והגהה אקדמית: <a href="/academic-editing.html">למידע נוסף על השירות ←</a>
+תרגום אקדמי: <a href="/academic-translation.html">למידע נוסף על השירות ←</a>
+מדריכי ראיונות: <a href="/interview-guides.html">למידע נוסף על השירות ←</a>
+רפרטים ומצגות אקדמיות: <a href="/presentations.html">למידע נוסף על השירות ←</a>
+עימוד ועיצוב מסמכים: <a href="/document-formatting.html">למידע נוסף על השירות ←</a>
+תבניות Excel: <a href="/excel-templates.html">למידע נוסף על השירות ←</a>
+ארגון הלמידה ב־Moodle: <a href="/moodle.html">למידע נוסף על השירות ←</a>
